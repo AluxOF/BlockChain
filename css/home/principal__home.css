@@ -1,0 +1,161 @@
+.descricao {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    margin: 80px 0 0 65px;
+}
+
+.titulo__principal {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    animation: descricao 2.8s ease-in-out;
+    z-index: 11;
+}
+
+.subtitulo__principal{ 
+    font-family: 'Montserrat',sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff; 
+    margin-bottom: 1rem;
+    animation: descricao 3.2s ease-in-out;
+    z-index: 11;
+}
+
+.paragrafo__principal {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff; 
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    animation: descricao 3.6s ease-in-out ;
+    z-index: 11;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    background: linear-gradient(94.09deg, #1D00CF 0%, #7100E1 100%);
+    border: 1.5px solid #ffffff;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    transition: 0.35s all;
+    animation: descricao 4s ease-in-out;
+    z-index: 11;
+}
+
+.botao:hover {
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.70);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.detalhe__grafico-esfera {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: -25%;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: rgba(0, 255, 224, 0.35);
+    filter: blur(120px);
+    animation: detalhe-grafico 3s linear;
+    z-index: 1;
+}
+
+/*Terreno Gráfico*/
+.cruz__maior {
+    position: absolute;
+    bottom: -12%;
+    right: -15%;
+    width: 85%;
+    animation: terreno 2.1s ease-in-out, terreno-infinito 3s ease-in-out 2.1s infinite;
+}
+
+.cruz__menor {
+    position: absolute;
+    bottom: -18%;
+    right: -10%;
+    width: 75%;
+    animation: terreno 2.1s ease-in-out, terreno-infinito 3.2s ease-in-out 2.1s infinite;
+}
+
+/*Cubos Neon e Detalhe Gráfico*/
+
+.cubo__rosa {
+    position: absolute;
+    width: 29%;
+    right: 26.9%;
+    bottom: -4%;
+    z-index: 10;
+    animation: cubo 1.9s ease-in-out, cubo-infinito 3s ease-in-out 1.9s infinite;
+}
+
+.cubo__azul {
+    position: absolute;
+    width: 20%;
+    right: 21%;
+    bottom: 15%;
+    z-index: 9;
+    animation: cubo 1.9s ease-in-out, cubo-infinito 3.1s ease-in-out 1.9s infinite;
+}
+
+.cubo__roxo {
+    position: absolute;
+    width: 20%;
+    right: 27%;
+    bottom: 22%;
+    z-index: 8;
+    animation: cubo 1.9s ease-in-out, cubo-infinito 3.2s ease-in-out 1.9s infinite;
+}
+
+.cubo__rosa-forte {
+    position: absolute;
+    width: 29%;
+    right: 12.5%;
+    bottom: 26%;
+    z-index: 7;
+    animation: cubo 1.9s ease-in-out, cubo-infinito 3.3s ease-in-out 1.9s infinite;
+}
+
+.cubo__verde {
+    position: absolute;
+    width: 20%;
+    right: 16%;
+    bottom: 5.5%;
+    z-index: 9;
+    animation: cubo-verde 2s ease-in-out, cubo-verde-infinito 4s ease-in-out 1.93s infinite;
+}
+
+.cubo__azul-forte {
+    position: absolute;
+    width: 20%;
+    right: 32%;
+    bottom: 25.5%;
+    z-index: 7;
+    animation: cubo-azul 2s ease-in-out, cubo-azul-infinito 4s ease-in-out 2s infinite;
+}
+
+.detalhe__grafico {
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    box-shadow: 25px 0 0 #ffffff, 0 -25px 0 #ffffff;
+    animation: detalhe-grafico 3s linear;
+}

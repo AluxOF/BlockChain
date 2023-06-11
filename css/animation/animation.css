@@ -1,0 +1,141 @@
+@keyframes cabecalho {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*Animação da Descrição Principal*/
+@keyframes descricao {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }    
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
+/*Animação dos Terrenos*/
+@keyframes terreno {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes terreno-infinito {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*Animação Cubos Neon*/
+@keyframes cubo {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cubo-infinito {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cubo-verde {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cubo-verde-infinito {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cubo-azul {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes cubo-azul-infinito {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*Animação do Detalhe*/
+@keyframes detalhe-grafico {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
